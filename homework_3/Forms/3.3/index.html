@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="left">
+          <div class="head left-head">
+            <p>Информация о Вас</p>
+          </div>
+          <div class="left-main_content">
+            <div class="left-main_content-form-disclaimer">
+              <img src="./images/disclaimer.png" alt="disclaimer" />
+              <p>Только старше 18 лет</p>
+            </div>
+            <div class="left-main_content-form">
+              <div class="left-main_content-form-line-input">
+                <label for="title">Титул</label>
+                <select name="title" class="title-select">
+                  <option value="1">Господин</option>
+                  <option value="2">Граф</option>
+                  <option value="3">Герцог</option>
+                </select>
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="name">Имя</label>
+                <div class="input-icon-right">
+                  <i class="fa fa-user"></i>
+                  <input type="text" name="name" />
+                </div>
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="sur-name">Фамилия</label>
+                <input type="text" name="sur-name" />
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="date">Дата рождения</label>
+                <div class="left-main_content-date">
+                  <input type="text" name="date" /><input
+                    type="text"
+                    name="date"
+                  /><input type="text" name="date" />
+                </div>
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="email">Адрес электронной почты</label>
+                <input type="text" name="email" />
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="country">Страна</label>
+                <select name="country" class="country-select">
+                  <option value="Ukraine">Украина</option>
+                  <option value="Russia">Россия</option>
+                  <option value="Polsha">Польша</option>
+                </select>
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="address-main">Строка адреса 1</label>
+                <input type="text" name="address-main" />
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="address-addition"
+                  >Строка адреса 2(необязательно)</label
+                >
+                <input type="text" name="address-addition" />
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="city">Город</label>
+                <input type="text" name="city" />
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="region">Область/штат(необязательно)</label>
+                <input type="text" name="region" />
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="index">Почтовый индекс(необязательно)</label>
+                <input type="text" name="index" />
+              </div>
+              <div class="left-main_content-form-line-input">
+                <label for="index">Телефон</label>
+                <div class="left-main_content-phone">
+                  <input type="text" name="index" />
+                  <button class="left-main_content-phone-button">
+                    Мобильный
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="head right-head">
+            <p>Ваш Betfait счёт</p>
+          </div>
+          <div class="right-main_content">
+            <div class="right-main_content-form">
+              <div class="кшпре-main_content-form-line-input">
+                <label for="login">Имя пользователя</label>
+                <input type="text" name="login" />
+              </div>
+              <div class="кшпре-main_content-form-line-input">
+                <label for="password">Пароль</label>
+                <div class="input-icon-right">
+                  <i class="fa fa-user"></i>
+                  <input type="text" name="name" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
