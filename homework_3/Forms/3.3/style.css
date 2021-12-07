@@ -119,9 +119,10 @@ select {
 .input-icon-right {
     position: relative;
 }
-.input-icon-right i {
+.input-icon-right svg {
     position: absolute;
     min-width: 40px;
     margin-top: 5px;
-    right: 35%;
+    right: 40%;
+    color: rgba(119, 112, 112, 0.781);
 }
