@@ -34,6 +34,9 @@
     padding: 5px;
     border: 1px solid black;
 }
+.second_tb tbody tr .portionSize {
+    text-align: left;
+}
 .second_tb tbody tr:nth-child(even) {
     background-color: rgba(168, 240, 168, 0.61);
 }
